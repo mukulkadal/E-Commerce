@@ -10,7 +10,7 @@ import Vector_img04 from "../assets/images/gucci.png";
 function Hero_section() {
   return (
     <>
-      <div className="w-full bg-[#f2f0f1] h-auto">
+      <div className="w-full bg-[#f2f0f1] h-auto mt-10">
         <div className="grid max-w-[1240px] items-center mx-auto sm:grid grid-cols-1 md:grid-cols-2">
           <div className=" items-center">
             <div className="px-2 xl:px-0">
