@@ -18,7 +18,7 @@ function Footer() {
     <>
     
 <div className="max-w-[1240px] m-auto relative top-10 md:relative sm:top-20 px-4  xl:px-0 ">
-<div className="grid grid-cols-12 bg-black h-auto rounded-3xl items-center py-7 px-9 gap-5">
+<div className="grid grid-cols-12 bg-red-500 h-auto rounded-3xl items-center py-7 px-6 gap-5">
       <div className=" col-span-12  md:col-span-7">
        <div className="max-w-[450px] text-[32px] sm:text-4xl font-bold text-white ">STAY UPTO DATE ABOUT OUR LATEST OFFERS</div>
       </div>
