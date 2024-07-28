@@ -10,10 +10,10 @@ const Dropdown = () => {
       <div>
         <div className=" flex items-center justify-center gap-2" onClick={() => dispatch(toggleDropdown())}  >Options <FaAngleDown />  </div>
         <ul className={`${isOpen ? "block" : "hidden"} w-[200px] bg-white border p-4 absolute`}>
-          <li>Home</li>
-          <li>Home11</li>
-          <li>Home3</li>
-          <li>Home4</li>
+          <li>Jeans</li>
+          <li>Lowers</li>
+          <li>Joggers </li>
+          <li>Formal Pants</li>
         </ul>
       </div>
     </>
