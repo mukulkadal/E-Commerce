@@ -8,7 +8,7 @@ const Dropdown = () => {
   return (
     <>
       <div>
-        <div className=" flex items-center justify-center gap-2" onClick={() => dispatch(toggleDropdown())}  >Options <FaAngleDown />  </div>
+        <div className=" cursor-pointer flex items-center justify-center gap-2" onClick={() => dispatch(toggleDropdown())}  >Options <FaAngleDown />  </div>
         <ul className={`${isOpen ? "block" : "hidden"} w-[200px] bg-white border p-4 absolute`}>
           <li>Jeans</li>
           <li>Lowers</li>
