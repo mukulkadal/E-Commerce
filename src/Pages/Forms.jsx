@@ -34,6 +34,8 @@ await axios.post(URL,data).then((res) => console.log(res));
             <button onClick={handleSubmit(onSubmit)} className="w-full bg-yellow-500  py-3 rounded-lg font-bold text-white mt-6">
               Log in
             </button>
+
+
           </div>
         </div>
       </div>

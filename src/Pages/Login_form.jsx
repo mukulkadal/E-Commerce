@@ -2,6 +2,7 @@
 import axios from "axios";
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
+import { Link } from "react-router-dom";
 import { toast } from "react-toastify";
 
 const URL = "http://trip-mate-backend.onrender.com/auth/login-with-email";
@@ -48,6 +49,8 @@ function Login_form() {
             >
               Log in
             </button>
+
+            <Link to={"/"} className="w-full text-center py-4 px-4 rounded-md bg-slate-200 outline-none"> Back</Link>
           </div>
         </div>
       </div>
